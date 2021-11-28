@@ -1,7 +1,25 @@
-h1 {
-    text-align: center;
-}
 form {
     font-size: 20px;
     text-align: justify;
+}
+.container h1 {
+    text-align: center;
+    margin-top: 3rem;
+    color: yellow;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    border-radius: 47px;
+    box-shadow: turquoise;
+    width: 30%;
+}
+.card h5 {
+    font-size: 2rem;
+    font-family: fantasy;
+    color: violet;
+    text-align: center;
+}
+.card .form-group label {
+    color: red;
 }
