@@ -6,21 +6,21 @@
     margin-bottom: 30rem;
     /* margin-top: 10rem; */
     font-weight: bolder;
-    padding-top: 19rem;
+    padding-top: -4;
     padding-bottom: -55rem;
 }
 .home p {
     font-size: 2rem;
-    color: blue;
+    color: white;
     text-align: center;
     margin-top: -30rem;
-    
+    padding-top: -2rem;
 }
 .home {
-    background-color:#F2C078;
+    background-image: url("../image.png");
     background-size: cover;
-    padding-top: 0;
     
+    padding: 15rem 2rem;
 }
 .home img {
     margin-left: 40rem;
@@ -48,7 +48,7 @@ form {
     text-align: justify;
 }
 .container-fluid {
-    background-image: url("./nnn.jpeg");
+    background-image: url("../nnn.jpeg");
     background-size: cover;
     position: relative;
     top: -15px;
