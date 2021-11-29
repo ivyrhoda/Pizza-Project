@@ -17,7 +17,7 @@
     padding-top: -2rem;
 }
 .home {
-    background-image: url("../image.png");
+    background-image: url("./images/image.png");
     background-size: cover;
     
     padding: 15rem 2rem;
@@ -48,7 +48,7 @@ form {
     text-align: justify;
 }
 .container-fluid {
-    background-image: url("../nnn.jpeg");
+    background-image: url("./images/nnn.jpeg");
     background-size: cover;
     position: relative;
     top: -15px;
