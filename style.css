@@ -1,17 +1,35 @@
-body {
-    background-image: url("./nnn.jpeg");
+.home h1 {
+    font-size: 4rem;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30rem;
+    /* margin-top: 10rem; */
+    font-weight: bolder;
+}
+.home {
+    background-color: #f5a465;
     background-size: cover;
+    padding-top: 0;
+    
 }
 form {
     font-size: 20px;
     text-align: justify;
 }
+.container-fluid {
+    background-image: url("./nnn.jpeg");
+    background-size: cover;
+    position: relative;
+    top: -15px;
+}
 .container h1 {
     text-align: center;
-    margin-top: 3rem;
+    
     color: hsl(56, 100%, 50%);
     font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5rem;
 }
 .card {
     border-radius: 47px;
