@@ -6,6 +6,15 @@
     margin-bottom: 30rem;
     /* margin-top: 10rem; */
     font-weight: bolder;
+    padding-top: 19rem;
+    padding-bottom: -55rem;
+}
+.home p {
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    margin-top: -30rem;
+    
 }
 .home {
     background-color: #f5a465;
