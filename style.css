@@ -1,6 +1,6 @@
 .home h1 {
     font-size: 4rem;
-    color:black;
+    color:#fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-bottom: 30rem;
@@ -17,10 +17,31 @@
     
 }
 .home {
-    background-color: #f5a465;
+    background-color:#F2C078;
     background-size: cover;
     padding-top: 0;
     
+}
+.home img {
+    margin-left: 40rem;
+    height: 100%;
+    max-width: 40rem;
+}
+.services {
+    background-color: #FAEDCA;
+    padding-top: 5rem;
+}
+.services h1 {
+    text-align: center;
+    color:blue;
+    font-family: cursive;
+    font-size: 3rem;
+}
+.services p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 5rem;
 }
 form {
     font-size: 20px;
