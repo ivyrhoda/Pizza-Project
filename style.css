@@ -1,3 +1,7 @@
+body {
+    background-image: url("./nnn.jpeg");
+    background-size: cover;
+}
 form {
     font-size: 20px;
     text-align: justify;

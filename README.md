@@ -11,6 +11,8 @@ This project is about widening my pizza bussines .It basicially enables one to m
 Clone the repository and use index.html
 
 # link to live site on GitHub Pages
+ivyrhoda.github.io/pizza-project/
+
 
 # Steps for installation
   1. Open terminal {Ctrl+Alt+T}

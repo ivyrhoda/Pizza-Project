@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color: #f5a465;">   
+<body>   
     <div class="container">
         <h1>Order Pizza Now </h1>       
         <div class="card">
@@ -20,10 +20,10 @@
                 <div class="form-group">
                     <label>Select Pizza Size</label>
                     <select class="form-control" id="pizzaSize">
-                        <option value="500">Small     at      Ksh.500</option>
-                        <option value="800">Medium at Ksh.800</option>
-                        <option value="1000">Large at Ksh.1000</option>
-                        <option value="1200">Extra Large at Ksh.1200</option>
+                        <option value="500">Small     at      <b></b>Ksh.500</option>
+                        <option value="800">Medium at <b>Ksh.800</b></option>
+                        <option value="1000">Large at <b>Ksh.1000</b></option>
+                        <option value="1200">Extra Large at <b>Ksh.1200</b></option>
                     </select>
                     
                 </div>
@@ -31,18 +31,18 @@
                 <div class="form-group">
                     <label>Select Pizza Crust Type</label>
                     <select class="form-control" id="pizzaCrust">
-                        <option value="100">Crispy</option>
-                        <option value="150">Stuffed</option>
-                        <option value="200">Gulten-free</option>
+                        <option value="100">Crispy at Ksh.100</option>
+                        <option value="150">Stuffed at Ksh.150</option>
+                        <option value="200">Gulten-free at Ksh.200</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label>Select Pizza Toppings</label>
                     <select class="form-control" id="pizzaTopping">
-                        <option value="200">Extra Beef</option>
-                        <option value="200">Gheese</option>
-                        <option value="200">Chicken</option>
+                        <option value="200">Extra Beef at Ksh.200</option>
+                        <option value="200">Gheese at Ksh.200</option>
+                        <option value="200">Chicken at Ksh.200</option>
                     </select>
                 </div>
 
@@ -61,10 +61,10 @@
 
         <div class="card" id="cardCart" style="display: none; margin-top: 10px;">
             <div class="card-body">
-                <p>Sub Total <b>Ksh <span id="subTotal"></span></b></p>
+                <p style="color:violet;font-weight: bolder;font-size: 2.5rem;">Sub Total  <b>Ksh <span id="subTotal"></span></b></p>
                 <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
-                    <label class="form-check-label" for="flexSwitchCheckChecked">Do you want your order to be Delivered (Fixed charge of Ksh 1,000)</label>
+                    <label class="form-check-label" for="flexSwitchCheckChecked" style="color: red;">Do you want your order to be Delivered (Fixed charge of Ksh 1,000)</label>
                 </div>
 
                 <div id="deliveryDetails" style="display: none;">
