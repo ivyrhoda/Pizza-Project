@@ -19,7 +19,7 @@
 .home {
     background-image: url("./images/image.png");
     background-size: cover;
-    
+
     padding: 15rem 2rem;
 }
 .home img {
@@ -55,7 +55,7 @@ form {
 }
 .container h1 {
     text-align: center;
-    
+
     color: hsl(56, 100%, 50%);
     font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -76,5 +76,5 @@ form {
     color: red;
 }
 .cotacts h1 {
-    
+
 }
